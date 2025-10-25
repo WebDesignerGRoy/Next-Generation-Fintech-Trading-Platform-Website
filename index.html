@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexTrade - Next-Gen Fintech Trading Platform</title>
+    <meta name="description" content="Trade Crypto, Forex & CFDs with AI Auto Bots. Invest in Crypto Mining. All-in-one Next-Generation Trading Platform.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Market Ticker -->
+        <div class="market-ticker">
+            <div class="container">
+                <div class="ticker-items">
+                    <div class="ticker-item">
+                        <span class="ticker-label">BTC/USD</span>
+                        <span class="ticker-value positive">$42,580.50</span>
+                        <span class="ticker-change positive">+2.4%</span>
+                    </div>
+                    <div class="ticker-item">
+                        <span class="ticker-label">ETH/USD</span>
+                        <span class="ticker-value positive">$2,245.80</span>
+                        <span class="ticker-change positive">+1.8%</span>
+                    </div>
+                    <div class="ticker-item">
+                        <span class="ticker-label">EUR/USD</span>
+                        <span class="ticker-value negative">1.0892</span>
+                        <span class="ticker-change negative">-0.3%</span>
+                    </div>
+                    <div class="ticker-item">
+                        <span class="ticker-label">GBP/USD</span>
+                        <span class="ticker-value positive">1.2650</span>
+                        <span class="ticker-change positive">+0.5%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Navigation -->
+        <div class="nav-bar">
+            <div class="container">
+                <div class="nav-content">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i data-lucide="trending-up"></i>
+                            <span>NexTrade</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Desktop Navigation -->
+                    <nav class="nav-links">
+                        <a href="#" class="nav-link active">Home</a>
+                        <a href="#" class="nav-link">Trading</a>
+                        <a href="#" class="nav-link">AI Bots</a>
+                        <a href="#" class="nav-link">Mining</a>
+                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link">Help</a>
+                    </nav>
+                    
+                    <!-- Actions -->
+                    <div class="nav-actions">
+                        <button class="icon-btn">
+                            <i data-lucide="bell"></i>
+                            <span class="notification-dot"></span>
+                        </button>
+                        <button class="icon-btn">
+                            <i data-lucide="user"></i>
+                        </button>
+                        <button class="btn-primary">Deposit</button>
+                        <button class="icon-btn mobile-menu-btn">
+                            <i data-lucide="menu"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Welcome Section -->
+            <div class="welcome-section">
+                <h1 class="welcome-title">Welcome back, Trader</h1>
+                <p class="welcome-subtitle">Your portfolio is up 12.5% this week. Keep up the great work! 🚀</p>
+            </div>
+
+            <!-- Balance Cards -->
+            <div class="balance-grid">
+                <div class="balance-card">
+                    <div class="card-header">
+                        <div class="card-icon gradient-primary">
+                            <i data-lucide="wallet"></i>
+                        </div>
+                        <div class="card-change positive">
+                            <i data-lucide="trending-up"></i>
+                            <span>+5.2%</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-label">Main Balance</p>
+                        <h3 class="card-value">$124,580.50</h3>
+                    </div>
+                    <div class="mini-chart">
+                        <div class="chart-bar" style="height: 40%"></div>
+                        <div class="chart-bar" style="height: 55%"></div>
+                        <div class="chart-bar" style="height: 45%"></div>
+                        <div class="chart-bar" style="height: 70%"></div>
+                        <div class="chart-bar" style="height: 60%"></div>
+                        <div class="chart-bar" style="height: 80%"></div>
+                        <div class="chart-bar" style="height: 75%"></div>
+                        <div class="chart-bar" style="height: 90%"></div>
+                        <div class="chart-bar" style="height: 85%"></div>
+                        <div class="chart-bar" style="height: 95%"></div>
+                        <div class="chart-bar" style="height: 88%"></div>
+                        <div class="chart-bar" style="height: 100%"></div>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-outline">
+                            <i data-lucide="arrow-up-right"></i>
+                            Deposit
+                        </button>
+                        <button class="btn-outline">
+                            <i data-lucide="arrow-down-left"></i>
+                            Withdraw
+                        </button>
+                    </div>
+                </div>
+
+                <div class="balance-card">
+                    <div class="card-header">
+                        <div class="card-icon gradient-success">
+                            <i data-lucide="trending-up"></i>
+                        </div>
+                        <div class="card-change positive">
+                            <i data-lucide="trending-up"></i>
+                            <span>+8.7%</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-label">Trading Balance</p>
+                        <h3 class="card-value">$68,240.00</h3>
+                    </div>
+                    <div class="mini-chart success">
+                        <div class="chart-bar" style="height: 45%"></div>
+                        <div class="chart-bar" style="height: 60%"></div>
+                        <div class="chart-bar" style="height: 55%"></div>
+                        <div class="chart-bar" style="height: 75%"></div>
+                        <div class="chart-bar" style="height: 70%"></div>
+                        <div class="chart-bar" style="height: 85%"></div>
+                        <div class="chart-bar" style="height: 80%"></div>
+                        <div class="chart-bar" style="height: 92%"></div>
+                        <div class="chart-bar" style="height: 88%"></div>
+                        <div class="chart-bar" style="height: 100%"></div>
+                        <div class="chart-bar" style="height: 95%"></div>
+                        <div class="chart-bar" style="height: 98%"></div>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-outline">
+                            <i data-lucide="arrow-up-right"></i>
+                            Deposit
+                        </button>
+                        <button class="btn-outline">
+                            <i data-lucide="arrow-down-left"></i>
+                            Withdraw
+                        </button>
+                    </div>
+                </div>
+
+                <div class="balance-card">
+                    <div class="card-header">
+                        <div class="card-icon gradient-secondary">
+                            <i data-lucide="bot"></i>
+                        </div>
+                        <div class="card-change positive">
+                            <i data-lucide="trending-up"></i>
+                            <span>+12.4%</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-label">AI Trading Balance</p>
+                        <h3 class="card-value">$32,150.25</h3>
+                    </div>
+                    <div class="mini-chart">
+                        <div class="chart-bar" style="height: 50%"></div>
+                        <div class="chart-bar" style="height: 65%"></div>
+                        <div class="chart-bar" style="height: 60%"></div>
+                        <div class="chart-bar" style="height: 80%"></div>
+                        <div class="chart-bar" style="height: 75%"></div>
+                        <div class="chart-bar" style="height: 90%"></div>
+                        <div class="chart-bar" style="height: 85%"></div>
+                        <div class="chart-bar" style="height: 95%"></div>
+                        <div class="chart-bar" style="height: 92%"></div>
+                        <div class="chart-bar" style="height: 100%"></div>
+                        <div class="chart-bar" style="height: 97%"></div>
+                        <div class="chart-bar" style="height: 100%"></div>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-outline">
+                            <i data-lucide="arrow-up-right"></i>
+                            Deposit
+                        </button>
+                        <button class="btn-outline">
+                            <i data-lucide="arrow-down-left"></i>
+                            Withdraw
+                        </button>
+                    </div>
+                </div>
+
+                <div class="balance-card">
+                    <div class="card-header">
+                        <div class="card-icon gradient-accent">
+                            <i data-lucide="cpu"></i>
+                        </div>
+                        <div class="card-change positive">
+                            <i data-lucide="trending-up"></i>
+                            <span>+3.8%</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-label">Mining Balance</p>
+                        <h3 class="card-value">$24,190.25</h3>
+                    </div>
+                    <div class="mini-chart accent">
+                        <div class="chart-bar" style="height: 42%"></div>
+                        <div class="chart-bar" style="height: 58%"></div>
+                        <div class="chart-bar" style="height: 50%"></div>
+                        <div class="chart-bar" style="height: 72%"></div>
+                        <div class="chart-bar" style="height: 65%"></div>
+                        <div class="chart-bar" style="height: 82%"></div>
+                        <div class="chart-bar" style="height: 78%"></div>
+                        <div class="chart-bar" style="height: 88%"></div>
+                        <div class="chart-bar" style="height: 85%"></div>
+                        <div class="chart-bar" style="height: 95%"></div>
+                        <div class="chart-bar" style="height: 90%"></div>
+                        <div class="chart-bar" style="height: 100%"></div>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-outline">
+                            <i data-lucide="arrow-up-right"></i>
+                            Deposit
+                        </button>
+                        <button class="btn-outline">
+                            <i data-lucide="arrow-down-left"></i>
+                            Withdraw
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profit Chart -->
+            <div class="profit-chart-section">
+                <div class="glass-card">
+                    <div class="section-header">
+                        <div class="header-info">
+                            <div class="card-icon gradient-success">
+                                <i data-lucide="trending-up"></i>
+                            </div>
+                            <div>
+                                <h3 class="section-title">Profit & Loss</h3>
+                                <p class="section-subtitle">Weekly performance</p>
+                            </div>
+                        </div>
+                        <div class="filter-buttons">
+                            <button class="filter-btn">Today</button>
+                            <button class="filter-btn active">Week</button>
+                            <button class="filter-btn">Month</button>
+                            <button class="filter-btn">
+                                <i data-lucide="calendar"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-box success">
+                            <p class="stat-label">Total Profit</p>
+                            <p class="stat-value success-text">+$24,580</p>
+                        </div>
+                        <div class="stat-box primary">
+                            <p class="stat-label">Trading</p>
+                            <p class="stat-value">$18,200</p>
+                        </div>
+                        <div class="stat-box secondary">
+                            <p class="stat-label">AI Bots</p>
+                            <p class="stat-value">$6,380</p>
+                        </div>
+                    </div>
+
+                    <div class="bar-chart">
+                        <div class="bar-item">
+                            <div class="bar" style="height: 150px">
+                                <span class="bar-tooltip">$7,500</span>
+                            </div>
+                            <span class="bar-label">Mon</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar" style="height: 170px">
+                                <span class="bar-tooltip">$8,500</span>
+                            </div>
+                            <span class="bar-label">Tue</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar" style="height: 140px">
+                                <span class="bar-tooltip">$7,000</span>
+                            </div>
+                            <span class="bar-label">Wed</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar" style="height: 190px">
+                                <span class="bar-tooltip">$9,500</span>
+                            </div>
+                            <span class="bar-label">Thu</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar" style="height: 176px">
+                                <span class="bar-tooltip">$8,800</span>
+                            </div>
+                            <span class="bar-label">Fri</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar" style="height: 184px">
+                                <span class="bar-tooltip">$9,200</span>
+                            </div>
+                            <span class="bar-label">Sat</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar" style="height: 200px">
+                                <span class="bar-tooltip">$10,000</span>
+                            </div>
+                            <span class="bar-label">Sun</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-allocation">
+                        <div class="allocation-item">
+                            <div class="allocation-dot success"></div>
+                            <span>Mining 35%</span>
+                        </div>
+                        <div class="allocation-item">
+                            <div class="allocation-dot primary"></div>
+                            <span>Trading 45%</span>
+                        </div>
+                        <div class="allocation-item">
+                            <div class="allocation-dot secondary"></div>
+                            <span>AI Bots 20%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Two Column Layout -->
+            <div class="two-column-layout">
+                <div class="main-column">
+                    <!-- AI Bots Section -->
+                    <div class="section">
+                        <div class="section-intro">
+                            <h2 class="large-title">AI Trading Bots</h2>
+                            <p class="section-description">Automated strategies powered by machine learning</p>
+                        </div>
+                        
+                        <div class="bot-grid">
+                            <div class="bot-card">
+                                <div class="card-header">
+                                    <div class="card-icon gradient-secondary">
+                                        <i data-lucide="bot"></i>
+                                    </div>
+                                    <span class="risk-badge medium">Medium Risk</span>
+                                </div>
+                                <h3 class="bot-name">Momentum Master</h3>
+                                <div class="bot-stats">
+                                    <div class="bot-stat">
+                                        <span class="stat-label">ROI</span>
+                                        <span class="stat-value success-text">+24.5%</span>
+                                    </div>
+                                    <div class="bot-stat">
+                                        <span class="stat-label">Total Trades</span>
+                                        <span class="stat-value">1,250</span>
+                                    </div>
+                                    <div class="bot-stat">
+                                        <span class="stat-label">Win Rate</span>
+                                        <span class="stat-value success-text">78%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 78%"></div>
+                                </div>
+                                <button class="btn-primary full-width">
+                                    <i data-lucide="zap"></i>
+                                    Run Bot
+                                </button>
+                            </div>
+
+                            <div class="bot-card">
+                                <div class="card-header">
+                                    <div class="card-icon gradient-secondary">
+                                        <i data-lucide="bot"></i>
+                                    </div>
+                                    <span class="risk-badge high">High Risk</span>
+                                </div>
+                                <h3 class="bot-name">Scalper Pro</h3>
+                                <div class="bot-stats">
+                                    <div class="bot-stat">
+                                        <span class="stat-label">ROI</span>
+                                        <span class="stat-value success-text">+18.2%</span>
+                                    </div>
+                                    <div class="bot-stat">
+                                        <span class="stat-label">Total Trades</span>
+                                        <span class="stat-value">3,890</span>
+                                    </div>
+                                    <div class="bot-stat">
+                                        <span class="stat-label">Win Rate</span>
+                                        <span class="stat-value success-text">72%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 72%"></div>
+                                </div>
+                                <button class="btn-primary full-width">
+                                    <i data-lucide="zap"></i>
+                                    Run Bot
+                                </button>
+                            </div>
+
+                            <div class="bot-card">
+                                <div class="card-header">
+                                    <div class="card-icon gradient-secondary">
+                                        <i data-lucide="bot"></i>
+                                    </div>
+                                    <span class="risk-badge low">Low Risk</span>
+                                </div>
+                                <h3 class="bot-name">Trend Follower</h3>
+                                <div class="bot-stats">
+                                    <div class="bot-stat">
+                                        <span class="stat-label">ROI</span>
+                                        <span class="stat-value success-text">+15.8%</span>
+                                    </div>
+                                    <div class="bot-stat">
+                                        <span class="stat-label">Total Trades</span>
+                                        <span class="stat-value">450</span>
+                                    </div>
+                                    <div class="bot-stat">
+                                        <span class="stat-label">Win Rate</span>
+                                        <span class="stat-value success-text">82%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 82%"></div>
+                                </div>
+                                <button class="btn-primary full-width">
+                                    <i data-lucide="zap"></i>
+                                    Run Bot
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mining Section -->
+                    <div class="section">
+                        <div class="section-intro">
+                            <h2 class="large-title">Crypto Mining</h2>
+                            <p class="section-description">Monitor your mining operations in real-time</p>
+                        </div>
+                        
+                        <div class="glass-card">
+                            <div class="section-header">
+                                <div class="header-info">
+                                    <div class="card-icon gradient-accent">
+                                        <i data-lucide="cpu"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="section-title">Mining Operations</h3>
+                                        <p class="section-subtitle">Real-time stats</p>
+                                    </div>
+                                </div>
+                                <div class="status-badge">
+                                    <div class="status-dot"></div>
+                                    <span>Active</span>
+                                </div>
+                            </div>
+
+                            <div class="mining-stats-grid">
+                                <div class="mining-stat">
+                                    <p class="stat-label">Hash Rate</p>
+                                    <p class="stat-large">250 TH/s</p>
+                                </div>
+                                <div class="mining-stat">
+                                    <p class="stat-label">Uptime</p>
+                                    <p class="stat-large success-text">99.8%</p>
+                                </div>
+                                <div class="mining-stat">
+                                    <p class="stat-label">Daily Reward</p>
+                                    <p class="stat-large warning-text">0.0045 BTC</p>
+                                </div>
+                                <div class="mining-stat">
+                                    <p class="stat-label">Total Earned</p>
+                                    <p class="stat-large primary-text">$12,458</p>
+                                </div>
+                            </div>
+
+                            <div class="efficiency-meter">
+                                <div class="meter-header">
+                                    <span>Power Efficiency</span>
+                                    <span class="efficiency-value">82%</span>
+                                </div>
+                                <div class="meter-bar">
+                                    <div class="meter-fill" style="width: 82%"></div>
+                                </div>
+                            </div>
+
+                            <div class="mining-actions">
+                                <button class="btn-success">
+                                    <i data-lucide="zap"></i>
+                                    Buy Machine
+                                </button>
+                                <button class="btn-outline">
+                                    <i data-lucide="dollar-sign"></i>
+                                    Invest in Pool
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Feed Sidebar -->
+                <div class="sidebar-column">
+                    <div class="glass-card social-feed">
+                        <div class="section-header">
+                            <h3 class="section-title">Community Feed</h3>
+                            <button class="text-btn">View All</button>
+                        </div>
+
+                        <div class="feed-posts">
+                            <div class="post-card">
+                                <div class="post-header">
+                                    <div class="avatar">CK</div>
+                                    <div class="post-info">
+                                        <p class="post-author">CryptoKing</p>
+                                        <p class="post-time">2m ago</p>
+                                    </div>
+                                    <div class="profit-badge">+$12,500</div>
+                                </div>
+                                <p class="post-content">Just closed a massive long position on BTC at $42.5K. Market looking bullish! 🚀</p>
+                                <div class="post-actions">
+                                    <button class="post-action">
+                                        <i data-lucide="heart"></i>
+                                        <span>234</span>
+                                    </button>
+                                    <button class="post-action">
+                                        <i data-lucide="message-circle"></i>
+                                        <span>45</span>
+                                    </button>
+                                    <button class="post-action">
+                                        <i data-lucide="share-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="post-card">
+                                <div class="post-header">
+                                    <div class="avatar">TP</div>
+                                    <div class="post-info">
+                                        <p class="post-author">TraderPro</p>
+                                        <p class="post-time">15m ago</p>
+                                    </div>
+                                    <div class="profit-badge">+8.5%</div>
+                                </div>
+                                <p class="post-content">AI Bot #3 generated 8.5% returns this week. Loving the automated strategies!</p>
+                                <div class="post-actions">
+                                    <button class="post-action">
+                                        <i data-lucide="heart"></i>
+                                        <span>189</span>
+                                    </button>
+                                    <button class="post-action">
+                                        <i data-lucide="message-circle"></i>
+                                        <span>32</span>
+                                    </button>
+                                    <button class="post-action">
+                                        <i data-lucide="share-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="post-card">
+                                <div class="post-header">
+                                    <div class="avatar">FM</div>
+                                    <div class="post-info">
+                                        <p class="post-author">ForexMaster</p>
+                                        <p class="post-time">1h ago</p>
+                                    </div>
+                                </div>
+                                <p class="post-content">EUR/USD breaking resistance. Watch for a potential rally to 1.0950</p>
+                                <div class="post-actions">
+                                    <button class="post-action">
+                                        <i data-lucide="heart"></i>
+                                        <span>156</span>
+                                    </button>
+                                    <button class="post-action">
+                                        <i data-lucide="message-circle"></i>
+                                        <span>28</span>
+                                    </button>
+                                    <button class="post-action">
+                                        <i data-lucide="share-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Trending Topics -->
+                        <div class="trending-topics">
+                            <h4 class="trending-title">
+                                <i data-lucide="trending-up"></i>
+                                Trending Topics
+                            </h4>
+                            <div class="trending-list">
+                                <div class="trending-item">
+                                    <span class="tag">#BitcoinRally</span>
+                                    <span class="count">432 posts</span>
+                                </div>
+                                <div class="trending-item">
+                                    <span class="tag">#AITrading</span>
+                                    <span class="count">287 posts</span>
+                                </div>
+                                <div class="trending-item">
+                                    <span class="tag">#ForexSignals</span>
+                                    <span class="count">198 posts</span>
+                                </div>
+                                <div class="trending-item">
+                                    <span class="tag">#CryptoMining</span>
+                                    <span class="count">156 posts</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Section -->
+            <div class="security-section">
+                <div class="section-intro center">
+                    <h2 class="large-title">Bank-Grade Security</h2>
+                    <p class="section-description">Your assets are protected with industry-leading security measures</p>
+                </div>
+
+                <div class="security-grid">
+                    <div class="security-card">
+                        <div class="card-icon gradient-primary">
+                            <i data-lucide="shield"></i>
+                        </div>
+                        <h3 class="security-title">KYC/AML Compliant</h3>
+                        <p class="security-description">Fully regulated and compliant</p>
+                    </div>
+                    <div class="security-card">
+                        <div class="card-icon gradient-primary">
+                            <i data-lucide="lock"></i>
+                        </div>
+                        <h3 class="security-title">Cold Wallet Custody</h3>
+                        <p class="security-description">95% funds in cold storage</p>
+                    </div>
+                    <div class="security-card">
+                        <div class="card-icon gradient-primary">
+                            <i data-lucide="file-check"></i>
+                        </div>
+                        <h3 class="security-title">Insurance Protection</h3>
+                        <p class="security-description">Assets insured up to $250M</p>
+                    </div>
+                    <div class="security-card">
+                        <div class="card-icon gradient-primary">
+                            <i data-lucide="activity"></i>
+                        </div>
+                        <h3 class="security-title">Real-Time Auditing</h3>
+                        <p class="security-description">24/7 security monitoring</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <i data-lucide="trending-up"></i>
+                        <span>NexTrade</span>
+                    </div>
+                    <p class="footer-description">
+                        Next-generation trading platform combining crypto, forex, AI bots, and mining investments.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-btn"><i data-lucide="twitter"></i></a>
+                        <a href="#" class="social-btn"><i data-lucide="github"></i></a>
+                        <a href="#" class="social-btn"><i data-lucide="linkedin"></i></a>
+                        <a href="#" class="social-btn"><i data-lucide="youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">API Documentation</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Licenses</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 NexTrade. All rights reserved. Trading involves risk. Ensure you understand the risks before trading.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
